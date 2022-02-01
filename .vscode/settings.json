@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "week_2",
+        "weeK_1/lecture_2",
+        "week_3/String",
+        "weeK_1\\lecture_3"
+    ],
+    "java.project.outputPath": "output"
+}

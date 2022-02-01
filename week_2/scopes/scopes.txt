@@ -1,0 +1,51 @@
+usually var in scope are inner most scope
+help improve clarity of the code
+as we dont have to worry about a variable outside teh scopes
+help reduce error like we can use same name without error
+Impove resource use so if a var outside the scope then it will be lost and dispost by garbage collector
+so need to be cerfull 
+
+
+Static and final 
+Static var are class variable they are share between all objects that belong to class used as counter
+then stat var are called they refer to the same variable
+
+final var are variable that cant be changed ones they are set. Place where they can be set is the constructor or instantiated
+be can have bith static and final that mean they can't be change, they exict within the class variable 
+When the final variable is called it can call its respective final var in the object.  
+
+
+Static effect on methord
+Static var are associated with class not object
+
+Every object call the came single universal static Variables
+
+We can call it without making an object with the class name
+SO if the main is the same class as methord we dont need to 
+specify the class name
+ 
+we can also crate an object and refence it
+
+Used when there is code that need to be shared for all instance in the class
+
+Used when there is no depency on object properties 
+What is object properties?
+differentiate objects from other objects. The basic properties of an object are those items 
+identified by its four-part name (name, type, instance, and version) and 
+also include owner, status, platform, and release. info that keep changing
+Static funstion are mostly used if the function is based entirly on input
+and/ or alway has the same output
+
+Static methords are unable to access instance methord and var direclty of
+they cant use the this keyword as they are part of the class then the object
+When ever you see staic methord that mean the methord doesnt rely on static properites
+
+Global variables
+For java all var must be inside a class,enum or interface so we can declare global var at the top level
+of the code so we need to use static and/or final to access information globally
+
+WHat is Inastance variable 
+Instance variable is the variable declared inside a class,
+ 
+What is instantiated?
+instantiated mean defining or using the instant variable in another class.

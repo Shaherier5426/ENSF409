@@ -1,0 +1,18 @@
+1)Avoid Lines Longer than 80 Characters
+System.out.print ("Print some text. ");
+System.out.print ("Print more text. +
+"Print even more text. ");
+system.out.printIn("The End.");
+
+Keep Methods Short
+Prevent fail in comprehension
+Long code mean code that is not properly modulized
+
+Use Descriptive Names
+setterForClass not setter 
+Use Braces for Clarity 
+if (condtion){
+
+
+}
+Shortcut for Declaring Variables

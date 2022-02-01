@@ -1,0 +1,6 @@
+1) everything starts from the main(), even if there are two mains we need to specify which class main we are
+talking about.
+2) How to name variables,Class,Constructor,functions
+variables and functions are start small and then camel case eg batBall, madMan()
+class are start cap and then camel eg.BananaBall()
+
